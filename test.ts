@@ -41,7 +41,7 @@ test("Testeo el removeProduct", (t) => {
   const p = lista.getProduct(myP.id);
   t.falsy(p);
 });
-
+/*
 test("Testeo el getSortedByPrice", (t) => {
   const lista = new ListaDeProductos("marce");
   t.deepEqual(
@@ -49,3 +49,4 @@ test("Testeo el getSortedByPrice", (t) => {
     lista.getSortedByPrice("desc")
   );
 });
+*/
